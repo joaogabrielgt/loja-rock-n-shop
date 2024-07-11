@@ -1,0 +1,36 @@
+.informacoes {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.informacoes a {
+    text-decoration: none;
+    color: black;
+}
+
+.informacoes a:hover {
+    color: #FE5054;
+}
+
+.informacoes .container {
+    display: flex;
+}
+
+.informacoes .container .produtos {
+    margin: 0px 400px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.direitos {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

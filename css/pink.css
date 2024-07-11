@@ -1,0 +1,105 @@
+.discos {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disco {
+    display: flex;
+    gap: 60px;
+}
+
+.fotos-disco {
+    display: flex;
+    gap: 10px;
+}
+
+.img-p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-p img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: black 0px 8px 24px;
+}
+
+.img-g img {
+    width: 620px;
+    border-radius: 20px;
+    box-shadow: black 0px 8px 24px;
+}
+
+.infos-disco {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descricao h1 {
+    margin-bottom: 20px;
+}
+
+.descricao p {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.preco span {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FE5054;
+}
+
+.botoes-compra {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adicionar-cesta {
+    background: none;
+    border: 5px solid #FE5054;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+.adicionar-cesta:hover {
+    background-color: #FE5054;
+   color: white;
+}
+
+.comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FE5054;
+    border: none;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+.comprar:hover {
+    background-color: rgb(67, 165, 43);
+}

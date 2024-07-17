@@ -1,5 +1,5 @@
 .login {
-    height: 92vh;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +11,8 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    height: 700px;
-    width: 900px;
+    height: 500px;
+    width: 700px;
     max-width: 100%;
     min-height: 480px;
 }

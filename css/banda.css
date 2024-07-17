@@ -12,17 +12,17 @@
 
 .fotos-disco {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .img-p {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .img-p img {
-    width: 167px;
+    width: 160px;
     border-radius: 10px;
     box-shadow: black 0px 8px 24px;
 }

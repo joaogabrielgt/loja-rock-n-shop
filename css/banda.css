@@ -1,5 +1,5 @@
 .discos {
-    height: 92vh;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,13 +22,13 @@
 }
 
 .img-p img {
-    width: 200px;
+    width: 167px;
     border-radius: 10px;
     box-shadow: black 0px 8px 24px;
 }
 
 .img-g img {
-    width: 620px;
+    width: 520px;
     border-radius: 20px;
     box-shadow: black 0px 8px 24px;
 }
